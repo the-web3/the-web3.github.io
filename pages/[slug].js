@@ -1,20 +1,14 @@
-export async function getStaticProps({ locale }) {
-    // Call an external API endpoint to get posts.
-    // You can use any data fetching library
-    const res = await fetch(`https://.../posts?locale=${locale}`)
-    const posts = await res.json()
-   
-    if (posts.length === 0) {
-      return {
-        notFound: true,
-      }
-    }
-   
-    // By returning { props: posts }, the Blog component
-    // will receive `posts` as a prop at build time
+export const getStaticPaths = ({ locales }) => {
     return {
-      props: {
-        posts,
-      },
+      paths: [
+        // if no `locale` is provided only the defaultLocale will be generated
+        { params: { slug: 'about.en-US' }, locale: 'en-US' },
+        { params: { slug: 'index.en-US' }, locale: 'en-US' },
+        { params: { slug: 'products.en-US' }, locale: 'en-US' },
+        { params: { slug: 'about.zh-CN' }, locale: 'zh-CN' },
+        { params: { slug: 'index.zh-CN' }, locale: 'zh-CN' },
+        { params: { slug: 'products.zh-CN' }, locale: 'zh-CN' },
+      ],
+      fallback: true,
     }
   }
