@@ -1,0 +1,39 @@
+{
+    "index": "Introduction",
+    "-- Documentation": {
+      "type": "separator",
+      "title": "Documentation"
+    },
+    "products": "Products",
+    "-- Tutorials": {
+      "type": "separator",
+      "title": "Web3 Tutorials"
+    },
+    "tutorials": "Tutorials",
+    "about": {
+      "title": "About",
+      "type": "page"
+    },
+    "404": {
+      "title": "404 - This page could not be found",
+      "theme": {
+        "sidebar": false,
+        "pagination": false,
+        "toc": false
+      }
+    },
+    "500": {
+      "title": "500 - Internal Server Error",
+      "theme": {
+        "sidebar": false,
+        "pagination": false,
+        "toc": false
+      }
+    },
+    "contact": {
+      "title": "Savour Labs ↗",
+      "type":  "page",
+      "href": "https://github.com/savour-labs",
+      "newWindow": true
+    }
+}
