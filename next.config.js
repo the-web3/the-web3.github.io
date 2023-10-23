@@ -23,7 +23,6 @@ const nextConfig = {
     defaultLocale: "en-US",
     localeDetection: false,
   },
-  output: 'export',
 };
 
 module.exports = withNextra(nextConfig);
