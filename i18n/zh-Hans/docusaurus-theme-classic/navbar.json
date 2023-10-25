@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "Savour Labs",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Savour Labs Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.🎯 Tutorials": {
+    "message": "🎯 Tutorials",
+    "description": "Navbar item with label 🎯 Tutorials"
+  },
+  "item.label.📄 Documents": {
+    "message": "📄 Documents",
+    "description": "Navbar item with label 📄 Documents"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}
