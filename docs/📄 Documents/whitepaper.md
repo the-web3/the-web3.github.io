@@ -19,7 +19,7 @@ We want to build a decentralized wallet system that operates in the form of a DA
 
 ### 4. Wallet Architecture Design
 
-![9.svg](/static/img/images/9.svg)
+![9.svg](../../static/img/images/9.svg)
 
 The middle layer and DAPP layer communicate via RestApi. The server layer and middle layer communicate via internal gRPC interfaces.
 
@@ -27,7 +27,7 @@ The middle layer and DAPP layer communicate via RestApi. The server layer and mi
 
 5.1. HD Wallet Business Flow (Phase 1)
 
-![10.svg](/static/img/images/10.svg)
+![10.svg](../../static/img/images/10.svg)
 
 5.2. Social Recovery Wallet (TBD if needed)
 
@@ -39,23 +39,23 @@ Social recovery wallet works like:
   
 The signing key can add/remove guardians but only after a delay (specified period of time)
 
-![11.svg](/static/img/images/11.svg)
+![11.svg](../../static/img/images/11.svg)
 
 Reference projects: https://www.argent.xyz/ and https://loopring.io/
 
 5.3. MPC Wallet KeyGen and Sign Phase (Phase 2) Reference project: Torus
 
-![12.svg](/static/img/images/12.svg)
+![12.svg](../../static/img/images/12.svg)
 
 5.4. NFT Business Flow (Phase 1)
 
-![13.svg](/static/img/images/13.svg)
+![13.svg](../../static/img/images/13.svg)
 
 Phase 1 can aggregate NFTs across chains like ETH, Solana, Xtz, consortium chains, with minting, buying, selling, bidding, transferring, recording functions.
 
 5.5. Market Data Business Flow (Phase 1)
 
-![14.svg](/static/img/images/14.svg)
+![14.svg](../../static/img/images/14.svg)
 
 5.6. Decentralized Finance Business Flow (deprioritized, depending on resources)
 
@@ -63,7 +63,7 @@ On-chain staking, liquidity mining, etc. Omitted for now, depending on available
 
 5.7. GameFi Business Flow (e.g. Texas Hold’em poker on blockchain)
 
-![15.svg](/static/img/images/15.svg)
+![15.svg](../../static/img/images/15.svg)
 
 The above is just a flowchart. The contract should consider privacy, blinds, etc. Details TBD during development.
 
@@ -75,7 +75,7 @@ The above is just a flowchart. The contract should consider privacy, blinds, etc
 
 Users self-manage keys, stored encrypted on device using device ID, password, fingerprint etc.
 
-![16.svg](/static/img/images/16.svg)
+![16.svg](../../static/img/images/16.svg)
 
 When generating mnemonics, we encrypt and store keys locally per BIP39/44. Private keys are decrypted on demand for export or signing. Pros: Users fully control keys. Cons: Irrecoverable if lost; complex for novice users.
 
@@ -83,7 +83,7 @@ When generating mnemonics, we encrypt and store keys locally per BIP39/44. Priva
 
 With MPC, private keys are split and held by user, platform, community, or third-party key vault. Weakens private key concept, easy like using Alipay.
 
-![17.svg](/static/img/images/17.svg)
+![17.svg](../../static/img/images/17.svg)
 
 MPC is popular for key management nowadays. Needs 3+ parties to function securely. More parties = more secure. Can use dedicated chains for key shards. Pros: Easy to use. Cons: Less secure with fewer parties.
 
@@ -99,7 +99,7 @@ Support major coins (BTC, ETH (incl. NFT), TRX, EOS, WAX, SOL (incl. NFT), DOT, 
 
 Centralized and decentralized market data. Can be a separate service:
 
-![18.svg](/static/img/images/18.svg)
+![18.svg](../../static/img/images/18.svg)
 
 For development: use Python, ccxt for centralized, DefiLlama for decentralized. Centralized API done.
 
@@ -111,13 +111,13 @@ Publish product updates, industry news, etc.
 
 As a decentralized gateway, huge advantage if we can support 100% of Dapps.
 
-![19.svg](/static/img/images/19.svg)
+![19.svg](../../static/img/images/19.svg)
 
 2.5. Hardware Wallet Support
 
 Support leading hardware wallets like Ledger via Bluetooth.
 
-![20.svg](/static/img/images/20.svg)
+![20.svg](../../static/img/images/20.svg)
 
 2.6. NFT
 
@@ -133,7 +133,7 @@ Enable multisig via MPC, e.g. for SavourDAO tokens and NFTs.
 
 Example flow:
 
-![21.svg](/static/img/images/21.svg)
+![21.svg](../../static/img/images/21.svg)
 
 KeyGen: Users generate shard keys on DAPP. Set 3/4 sigs required.
 

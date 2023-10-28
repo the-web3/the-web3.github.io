@@ -9,7 +9,7 @@ NFT is a module of the SavourDao project. It is a product module related to NFT 
 
 ## Project Architecture
 
-![NFT](/static/img/images/nft1.svg)
+![NFT](../../../static/img/images/nft1.svg)
 
 ## Function Description
 

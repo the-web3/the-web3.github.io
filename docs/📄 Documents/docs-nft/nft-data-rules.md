@@ -11,7 +11,7 @@ This product mainly grabs data on NFT contract creation, NFT minting, and NFT tr
 
 Overall architecture:
 
-![nft data architecture diagram](/static/img/images/nft-data-1.png)
+![nft data architecture diagram](../../../static/img/images/nft-data-1.png)
 
 ### 1. Details of Rule Components
 
