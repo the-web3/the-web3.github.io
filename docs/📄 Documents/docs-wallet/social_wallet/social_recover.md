@@ -12,7 +12,7 @@ A social recovery wallet is a cryptographic technology solution that uses thresh
 
 The scheme design diagram of the Savour wallet social recovery wallet is as follows:
 
-![s1.png](../../../static/img/images/s1.png)
+![s1.png](../../../../static/img/images/s1.png)
 
 In our savour wallet, the entire social recovery process is as follows:
 

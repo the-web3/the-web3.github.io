@@ -20,33 +20,33 @@ sidebar_position: 1
 
 1. Generate mnemonics and verify mnemonics
 
-![1.svg](../../../static/img/images/1.svg)
+![1.svg](../../../../static/img/images/1.svg)
 
 2. Export mnemonics and private keys
 
-![2.svg](../../../static/img/images/2.svg)
+![2.svg](../../../../static/img/images/2.svg)
 
 3. Import mnemonics and private keys
 
-![3.svg](../../../static/img/images/3.svg)
+![3.svg](../../../../static/img/images/3.svg)
 
 4. The secret behind transfer
 
-![4.svg](../../../static/img/images/4.svg)
+![4.svg](../../../../static/img/images/4.svg)
 
 5. View balance and transaction records
 
-![5.svg](../../../static/img/images/5.svg)
+![5.svg](../../../../static/img/images/5.svg)
 
 ##  Market module
 
 The market module is generally a market aggregator, with quotes from major centralized exchanges and major decentralized exchanges.
 
-![6.svg](../../../static/img/images/6.svg)
+![6.svg](../../../../static/img/images/6.svg)
 
 Market module business process diagram
 
-![7.svg](../../../static/img/images/7.svg)
+![7.svg](../../../../static/img/images/7.svg)
 
 ## News and information module
 
@@ -54,6 +54,6 @@ This is relatively simple, so I will not describe it here. The main purpose is t
 
 ## Dapp browser
 
-![8.svg](../../../static/img/images/8.svg)
+![8.svg](../../../../static/img/images/8.svg)
 
 The above are the functions to be implemented in Q3, with currency access to BTC, ETH, BSC, Polygon, EOS, and Solana.
