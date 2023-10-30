@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# NFT Data Monitoring and NFT Recommendation Product Design Doc (seek, Barrett,拉飞, luna, eren)
+# NFT Data Monitoring and NFT Recommendation Product Design Doc
 
 ## 1. Overview
 This product mainly grabs data on NFT contract creation, NFT minting, and NFT transactions, performs data analytics, and recommends high-value NFTs to users. Business rules include whale wallet address monitoring, monitoring of valuable NFT projects, monitoring of high-value individual NFTs, NFT value analysis, NFT rarity analysis, etc.
