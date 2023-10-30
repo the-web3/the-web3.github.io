@@ -35,60 +35,89 @@ Clean data on identified whale addresses and push to data center for middleware.
 
 1.3. Valuable Individual NFT Rules
 
-Circulation frequency > threshold
-Recent N trades > value threshold
-Price trend curve
+- The number of times an NFT has been traded is greater than a certain value.
+  
+- The total value of the last N transactions of an NFT is greater than a certain value.
 
-Monitor trades of NFTs meeting rules. Push data to center.
+- The average price of an NFT’s transactions -> price trend - price curve.
+
+NFT projects that meet both of the above conditions are required to monitor NFT trading activity, and push the data to the data cleaning center for use by the business middleware.
 
 1.4. Data Logic
-Mint date
-First trade date + price
-Last trade date + price
-Historical price curve + dates
-NFT series info, meaning, brand story
-NFT scarcity
-Community fans
-Turnover frequency
-BTC price curve (plotted with NFT curve)
-Market NFT volume + dates
-Market NFT market cap + dates
-![roi reference image]
+
+- Mint date
+  
+- First trade date + price
+
+- Last trade date + price
+
+- Historical price curve + dates
+
+- NFT series info, meaning, brand story
+
+- NFT scarcity
+
+- Community fans
+
+- Turnover frequency
+
+- BTC price curve (plotted with NFT curve)
+
+- Market NFT volume + dates
+
+- Market NFT market cap + dates
+
+![roireference.jpg](../../../static/img/images/roireference.jpg)
 
 ## 3. Business Logic Details
 
 1. Rule Configuration
-![rule configuration diagram]
+  
+![nft-data-2.png](../../../static/img/images/nft-data-2.png)
 
-Call rule RPC  
---------------->
-hailstone                   savour-nft【config rules】
+```
+            Call rule RPC  
+          --------------->
+hailstone                   savour-nft[config rules]
           <---------------
                Return
+```
+
 See RPC API for details.
 
 2. Data Cleansing
-![data cleansing diagram]
 
-Ingest cleansed data     Get cleansing rules  
----------->savour-nft【data center】 <-------------- savour-nft【config rules】
+![nft-data-3.png](../../../static/img/images/nft-data-3.png)
+
+```
+                    Ingest cleansed data                Get cleansing rules  
+store into a database ----------> savour-nft[data center] <-------------- savour-nft[config rules]
+```
+
 3. Data Ingestion Services
-![data ingestion diagram]
 
-              Whale addresses, NFT data etc.
+![nft-data-4.png](../../../static/img/images/nft-data-4.png)
+
+```
+                    Whale addresses, NFT data etc.
 Data aggregation sites-------------------------> Ingestion service
               
-              Transaction data, contract creation, NFT transfers, holders etc.   
+          Transaction data, contract creation, NFT transfers, holders etc.   
 Blockchain ----------------------------------------------------> Monitoring service
+```
+
 4. Pushing Clean Data
-![push clean data diagram]
 
+![nft-data-5.png](../../../static/img/images/nft-data-5.png)
 
+```
             Call rule RPC
           --------------->
 hailstone                   savour-nft【configured rules】
           <---------------
              Return clean data
+```
+
 See RPC API for details.
 
 ## Appendix 1 - Websites to Crawl
