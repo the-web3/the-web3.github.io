@@ -194,11 +194,18 @@ See the overall design of Key-locker
 
 ## Project Checklist
 
-[x] Key-locker
-[x] Key-exchange
-[] Transmitter
-[] Receiver
-[] Layer2 verifier contract set
-[] Validator
-[] Layer2 contract set
-[] Zk 电路(go 和 rust)
+:white_check_mark: Key-locker
+
+:white_check_mark: Key-exchange
+
+:clap: Transmitter
+
+:clap: Receiver
+
+:clap: Layer2 verifier contract set
+
+:clap: Validator
+
+:clap: Layer2 contract set
+
+:clap: Zk 电路(go 和 rust)
