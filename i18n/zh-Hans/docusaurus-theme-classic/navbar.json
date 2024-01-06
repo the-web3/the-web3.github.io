@@ -1,0 +1,38 @@
+{
+  "title": {
+    "message": "Savour Labs",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Savour Labs Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Develop 🛠️": {
+    "message": "开发 🛠️",
+    "description": "Navbar item with label Develop 🛠️"
+  },
+  "item.label.Ecosystem 🌍": {
+    "message": "生态 🌍",
+    "description": "Navbar item with label Ecosystem 🌍"
+  },
+  "item.label.Resources 📚": {
+    "message": "资源 📚",
+    "description": "Navbar item with label Resources 📚"
+  },
+  "item.label.📄 Documents": {
+    "message": "📄 文档",
+    "description": "Navbar item with label 📄 Documents"
+  },
+  "item.label.🎯 Tutorials": {
+    "message": "🎯 教程",
+    "description": "Navbar item with label 🎯 Tutorials"
+  },
+  "item.label.📃 Blog": {
+    "message": "📃 博客",
+    "description": "Navbar item with label 📃 Blog"
+  },
+  "item.label.💬 Forum": {
+    "message": "💬 论坛",
+    "description": "Navbar item with label 💬 Forum"
+  }
+}
