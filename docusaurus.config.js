@@ -55,12 +55,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      announcementBar: {
-        id: "announcementBar",
-        content: `🎉 We love to have you stop by! `,
-        backgroundColor: '#fafbfc', 
-        textColor: '#091E42',
-      },
       navbar: {
         title: "Savour Labs",
         logo: {
