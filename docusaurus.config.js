@@ -1,136 +1,186 @@
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const lightCodeTheme = require('prism-react-renderer/themes/github');
+const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-const githubUrl = `https://github.com/savour-labs`;
-const twitterUrl = `https://twitter.com/0xsavour`;
-const discordUrl = `https://discord.gg/9N62gJgMVW`;
+const githubUrl = 'https://github.com/savour-labs';
+const twitterUrl = 'https://twitter.com/0xsavour';
+const discordUrl = 'https://discord.gg/9N62gJgMVW';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Savour Labs",
-  tagline: "Focus on layer3 privacy decentralized social protocol, full chain game and web3 edu.",
-  favicon: "img/logo.png",
-  url: "https://savour-labs.github.io/",
-  baseUrl: "/",
-  organizationName: "Savour Labs",
-  projectName: "Savour Labs Website",
-  onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
+  title: 'Savour Labs',
+  tagline: 'Focus on layer3 privacy decentralized social protocol, full chain game and web3 edu.',
+  url: 'https://savour-labs.github.io/',
+  baseUrl: '/',
+  organizationName: 'Savour Labs',
+  projectName: 'Savour Labs Website',
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
+  favicon: 'img/logo.png',
 
   i18n: {
-    defaultLocale: "en",
-    locales: ["en", "zh-Hans"],
-    localeConfigs: {
-      en: {
-        htmlLang: "en-GB",
-      },
-    },
+    defaultLocale: 'en',
+    locales: ['en', 'zh-Hans'],
   },
+
+  plugins: [
+    async function myPlugin() {
+      return {
+        name: 'docusaurus-tailwindcss',
+        configurePostCss(postcssOptions) {
+          // eslint-disable-next-line global-require,import/no-extraneous-dependencies
+          postcssOptions.plugins.push(require('tailwindcss'));
+          // eslint-disable-next-line global-require,import/no-extraneous-dependencies
+          postcssOptions.plugins.push(require('autoprefixer'));
+          return postcssOptions;
+        },
+      };
+    },
+  ],
   presets: [
     [
-      "classic",
+      'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/savour-labs/savour-labs.github.io",
+          sidebarPath: require.resolve('./sidebars.js'),
+          editUrl:
+            'https://github.com/savour-labs/savour-labs.github.io/',
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/savour-labs/savour-labs.github.io/tree/main/',
+            'https://github.com/savour-labs/savour-labs.github.io/tree/main/blog',
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css"),
-        },
-        sitemap: {
-          changefreq: "weekly",
-          priority: 0.5,
-          ignorePatterns: ["/tags/**"],
-          filename: "sitemap.xml",
+          customCss: require.resolve('./src/css/custom.css'),
         },
       }),
     ],
   ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      algolia: {
+        apiKey: '580e9ffa904a6e675abc0316635de07a',
+        appId: '05RI04NMBH',
+        indexName: 'test',
+        contextualSearch: true,
+      },
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
+      },
       navbar: {
-        title: "Savour Labs",
+        title: 'Savour Labs',
         logo: {
-          alt: "Savour Labs Logo",
-          src: "img/logo.png",
+          alt: 'Savour Labs Logo',
+          src: 'img/logo.png',
         },
         items: [
           {
-            type: "dropdown",
-            label: "Develop 🛠️",
-            position: "left",
+            type: 'dropdown',
+            label: 'Develop 🛠️',
+            position: 'left',
             items: [
-              { to: "/docs/Documents/intro", label: "📄 Documents" },
-              { to: "/docs/Tutorials/intro", label: "🎯 Tutorials" },
+              { to: '/docs/Documents/intro', label: '📄 Documents' },
+              { to: '/docs/Tutorials/intro', label: '🎯 Tutorials' },
             ],
           },
           {
-            to: "/docs/Documents/intro",
-            label: "Ecosystem 🌍",
-            position: "left",
+            to: '/docs/Download/intro',
+            label: 'Ecosystem 🌍',
+            position: 'left',
           },
           {
-            type: "dropdown",
-            label: "Resources 📚",
-            position: "left",
+            type: 'dropdown',
+            label: 'Resources 📚',
+            position: 'left',
             items: [
-              { to: "/blog", label: "📃 Blog" },
-              { to: "/docs/Tutorials/intro", label: "📥 Downloads" },
+              { to: '/blog', label: '📃 Blog' },
               {
-                label: "💬 Forum",
-                href: "#",
+                label: '💬 Forum',
+                href: '#',
               },
             ],
           },
           {
-            type: "localeDropdown",
-            position: "right",
+            type: 'localeDropdown',
+            position: 'right',
           },
           {
             href: githubUrl,
-            position: "right",
-            className: "header-github-link",
-            "aria-label": "GitHub repository",
+            position: 'right',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
           },
           {
             href: twitterUrl,
-            position: "right",
-            className: "header-twitter-link",
-            "aria-label": "Twitter",
+            position: 'right',
+            className: 'header-twitter-link',
+            'aria-label': 'Twitter',
           },
           {
             href: discordUrl,
-            position: "right",
-            className: "header-discord-link",
-            "aria-label": "Discord",
-          },
-          {
-            type: "search",
-            position: "right",
+            position: 'right',
+            className: 'header-discord-link',
+            'aria-label': 'Discord',
           },
         ],
       },
-      colorMode: {
-        defaultMode: "light",
-        disableSwitch: false,
-        respectPrefersColorScheme: false,
-      },
-      algolia: {
-        apiKey: "580e9ffa904a6e675abc0316635de07a",
-        appId: "05RI04NMBH",
-        indexName: "test",
-        contextualSearch: true,
-      },
       footer: {
-        style: "light",
-        copyright: `Made with ❤️ by Savour Labs`,
+        style: 'light',
+        links: [
+          {
+            title: 'About',
+            items: [
+              {
+                label: 'Docs',
+                to: '/docs/Documents/intro',
+              },
+              {
+                label: 'Tutorials',
+                to: '/docs/Tutorials/intro',
+              },
+              {
+                label: 'Ecosystem',
+                to: '/docs/Download/intro',
+              },
+            ],
+          },
+          {
+            title: 'Products',
+            items: [
+              {
+                label: 'Base Bridge',
+                to: '#',
+              },
+              {
+                label: 'App Parapack',
+                to: '#',
+              },
+              {
+                label: 'App Chain',
+                to: '#',
+              },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'Blogs',
+                to: '/blog',
+              },
+              {
+                label: 'Forum',
+                to: '#',
+              },
+            ],
+          },
+        ],
+        copyright: `Copyright © ${new Date().getFullYear()} ❤️ Savour Labs`,
       },
       prism: {
         theme: lightCodeTheme,
