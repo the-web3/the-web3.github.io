@@ -1,8 +1,0 @@
-{
-  "label": "NFT Product",
-  "position": 1,
-  "link": {
-    "type": "generated-index",
-    "description": "NFT is a module of the SavourDao project. It is a product module related to NFT memorabilia, NFT avatars, NFT leasing, NFT rewards, NFT social, NFT recommendations, NFT transactions and other functions. The entire product is supported by the SavourDao NFT aggregator, whose core is one-click NFT minting, multi-chain and multi-platform data synchronization. Except for the NFT recommendation function, other functions are developed entirely by smart contracts and are completely decentralized. Of course, our goal is to create a truly decentralized, multi-functional, multi-chain, multi-platform supported NFT product."
-  }
-}
