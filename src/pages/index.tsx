@@ -31,14 +31,12 @@ function HomepageHeader() {
           Welcome to
           <span className="font-extralight mt-4 md:mt-8 lg:mt-0 text-[66px] sm:text-[83px] md:text-[92px] lg:text-9xl block text-blue-500 dark:text-blue-600">Savour Labs</span>
         </h1>
-        <p className="mt-6 pr-20 sm:pr-0 sm:mt-12 lg:mt-5 w-full sm:w-2/3 md:w-1/2 text-sm font-bold ml-1 text-slate-700 dark:text-white">
+        <p className="mt-6 pr-20 sm:pr-0 sm:mt-12 lg:mt-5 w-full sm:w-2/3 md:w-1/2 text-xl font-bold ml-1 text-slate-700 dark:text-white">
           {siteConfig.tagline}
-          <span className="ml-1 text-slate-400">
+          <span className="ml-1 text-xl text-slate-400">
             The vision of the Savour community is to create a completely fair,
-            open, and notarized community culture system;
-            everything is built by the community, everything belongs to the community,
-            there is no control entity, no builder, no contributor;
-            only owners, and everyone is an owner.
+            open, and notarized community culture system; everything is built
+            by the community, everything belongs to the community.
           </span>
         </p>
 
