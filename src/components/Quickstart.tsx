@@ -29,7 +29,7 @@ export default function Quickstart() {
               </Link>
             </div>
 
-            <p className="mb-20" />
+            <p className="mb-10" />
 
             <h2 className="font-bold text-3xl font-black text-white w-full mb-5 sm:mb-10">
               Layer3 Decentralized app
@@ -44,7 +44,7 @@ export default function Quickstart() {
                 <span className="ml-3">📦</span>
               </Link>
             </div>
-            <p className="mb-20" />
+            <p className="mb-10" />
             <h2 className="font-bold text-3xl font-black text-white w-full mb-5 sm:mb-10">
               Layer3 App Chain
               <span className="hidden sm:block w-full sm:w-auto text-sm font-normal text-blue-800 ml-3">Privacy social and full-chain game protocol</span>
