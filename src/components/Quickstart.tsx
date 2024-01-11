@@ -49,12 +49,12 @@ export default function Quickstart() {
               Layer3 App Chain
               <span className="hidden sm:block w-full sm:w-auto text-sm font-normal text-blue-800 ml-3">Privacy social and full-chain game protocol</span>
             </h2>
-              Layer3 App Chain
             <div>
               <Link
                 className="transition-all ease-in hover:bg-green-700 hover:text-white hover:text text-md text-white font-bold py-3 px-4 rounded bg-green-500 shadow-lg shadow-blue-500/50"
                 to="/docs/Documents/intro"
               >
+                Layer3 App Chain
                 <span className="ml-3">⛓️</span>
               </Link>
             </div>
