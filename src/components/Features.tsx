@@ -9,43 +9,43 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    icon: '👌',
+    title: 'Layer3 App Chain',
+    icon: '🔗',
     color: 'yellow',
     description: (
       <>
-        Savour Labs is designed from the ground up to be easily used.
+        We are building layer3 privacy social and full-game protocol app chain.
       </>
     ),
   },
   {
-    title: 'Rooted in technical rigor and credibility',
-    icon: '🍃',
+    title: 'Full chain game',
+    icon: '🎮',
     color: 'green',
     description: (
       <>
-        Stability are building blocks to our network’s growth.
+        We find and incubate full-chain games.
       </>
     ),
   },
   {
-    title: 'Detailed documentation',
-    icon: '🎛️',
+    title: 'Bridge alchemy',
+    icon: '🌉',
     color: 'cyan',
     description: (
       <>
-        Everything about Savour Labs Products.
+        An infrastructure which support any chain transfer to any chain.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    icon: '🧱',
+    title: 'Focus on web3 edu',
+    icon: '🏫',
     color: 'orange',
     description: (
       <>
         {/* eslint-disable-next-line react/no-unescaped-entities */}
-        Savour Labs focuses on social protocol, full chain game, and more.
+        savour labs academy web3 university
       </>
     ),
   },

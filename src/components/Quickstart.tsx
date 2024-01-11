@@ -16,7 +16,7 @@ export default function Quickstart() {
 
             <h2 className="font-bold text-3xl font-black text-white w-full mb-5 sm:mb-10">
               Layer3 Base bridge
-              <span className="hidden sm:block w-full sm:w-auto text-sm font-normal text-blue-800 ml-3"> Layer3 Base bridge is following </span>
+              <span className="hidden sm:block w-full sm:w-auto text-sm font-normal text-blue-800 ml-3">Support any chain transfer to any chain</span>
             </h2>
 
             <div>
@@ -32,33 +32,29 @@ export default function Quickstart() {
             <p className="mb-20" />
 
             <h2 className="font-bold text-3xl font-black text-white w-full mb-5 sm:mb-10">
-              Layer3 App Parapack
-              <span className="hidden sm:block w-full sm:w-auto text-sm font-normal text-blue-800 ml-3"> Layer3 Base bridge is following </span>
+              Layer3 Decentralized app
+              <span className="hidden sm:block w-full sm:w-auto text-sm font-normal text-blue-800 ml-3">Decentralized social and game app</span>
             </h2>
-
             <div>
               <Link
                 className="transition-all ease-in hover:bg-green-700 hover:text-white hover:text text-md text-white font-bold py-3 px-4 rounded bg-green-500 shadow-lg shadow-blue-500/50"
                 to="/docs/Documents/intro"
               >
-                App Parapack
+                Layer3 Dapp
                 <span className="ml-3">📦</span>
               </Link>
             </div>
-
             <p className="mb-20" />
-
             <h2 className="font-bold text-3xl font-black text-white w-full mb-5 sm:mb-10">
               Layer3 App Chain
-              <span className="hidden sm:block w-full sm:w-auto text-sm font-normal text-blue-800 ml-3"> Layer3 App Chain is following </span>
+              <span className="hidden sm:block w-full sm:w-auto text-sm font-normal text-blue-800 ml-3">Privacy social and full-chain game protocol</span>
             </h2>
-
+              Layer3 App Chain
             <div>
               <Link
                 className="transition-all ease-in hover:bg-green-700 hover:text-white hover:text text-md text-white font-bold py-3 px-4 rounded bg-green-500 shadow-lg shadow-blue-500/50"
                 to="/docs/Documents/intro"
               >
-                App Chain
                 <span className="ml-3">⛓️</span>
               </Link>
             </div>
@@ -69,7 +65,6 @@ export default function Quickstart() {
             src="./img/phone_dark.png"
             alt="phone"
           />
-
           <img
             className="dark:hidden pointer-events-none object-contain absolute -top-6 w-[400px] sm:relative sm:block sm:w-3/4 md:w-[70%] 2xl:w-[85%] lg:w-2/3 mr-0 translate-x-[27%] md:translate-x-[20%] lg:translate-x-[15%] 2xl:translate-x-[28%] -translate-y-[43%]"
             src="./img/phone_light.png"
