@@ -5,6 +5,8 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import HomepageFeatures from '@site/src/components/Features';
 import Circles from '@site/src/components/circles';
 import Quickstart from '@site/src/components/Quickstart';
+import Community from '@site/src/components/Community';
+import Sponsors from '../components/Sponsors';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -83,6 +85,14 @@ export default function Home(): JSX.Element {
         <main className="relative">
           <div className="relative max-w-7xl m-auto">
             <HomepageFeatures />
+          </div>
+
+          <div className="relative max-w-7xl m-auto">
+            <Sponsors />
+          </div>
+
+          <div className="relative max-w-7xl m-auto">
+            <Community />
           </div>
 
           <svg className="-mb-[1px] bottom-0 w-full sm:-mt-20 fill-blue-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
