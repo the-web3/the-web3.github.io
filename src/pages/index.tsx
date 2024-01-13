@@ -6,7 +6,7 @@ import HomepageFeatures from '@site/src/components/Features';
 import Circles from '@site/src/components/circles';
 import Quickstart from '@site/src/components/Quickstart';
 import Community from '@site/src/components/Community';
-import Sponsors from '../components/Sponsors';
+import Sponsors from '@site/src/components/Sponsors';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
