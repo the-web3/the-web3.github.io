@@ -400,5 +400,14 @@
   "theme.tags.tagsPageTitle": {
     "message": "标签",
     "description": "The title of the tag list page"
+  },
+  "🤝 Sponsors": {
+    "message": "🤝 赞助商"
+  },
+  "The vision of the Savour community is to create a completely fair, open, and notarized community culture system; everything is built by the community, everything belongs to the community.": {
+    "message": "Savour社区的愿景是创造一个完全公平、开放且公证的社区文化系统；一切由社区建设，一切归属于社区。"
+  },
+  "Get started": {
+    "message": "快速开始"
   }
 }

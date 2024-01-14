@@ -7,6 +7,7 @@ import Circles from '@site/src/components/circles';
 import Quickstart from '@site/src/components/Quickstart';
 import Community from '@site/src/components/Community';
 import Sponsors from '@site/src/components/Sponsors';
+import Translate from '@docusaurus/Translate';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -36,9 +37,11 @@ function HomepageHeader() {
         <p className="mt-6 pr-20 sm:pr-0 sm:mt-12 lg:mt-5 w-full sm:w-2/3 md:w-1/2 text-xl font-bold ml-1 text-slate-700 dark:text-white">
           {siteConfig.tagline}
           <span className="ml-1 text-xl text-slate-400">
-            The vision of the Savour community is to create a completely fair,
-            open, and notarized community culture system; everything is built
-            by the community, everything belongs to the community.
+            <Translate>
+              The vision of the Savour community is to create a completely fair,
+              open, and notarized community culture system; everything is built
+              by the community, everything belongs to the community.
+            </Translate>
           </span>
         </p>
 
@@ -47,7 +50,7 @@ function HomepageHeader() {
             className="transition-all ease-in hover:bg-blue-700 hover:text-white hover:text text-md text-white font-bold py-3 px-4 rounded bg-blue-500 shadow-lg shadow-blue-500/50"
             to="/docs/Documents/intro"
           >
-            Get started
+            <Translate>Get started</Translate>
             <span className="ml-3">🚀</span>
           </Link>
         </div>
