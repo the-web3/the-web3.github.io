@@ -90,8 +90,8 @@ function CommunityDemo({
 
 export default function Community(): JSX.Element {
   return (
-    <section className="relative mt-10 md:mt-20 lg:mt-30">
-      <div className="text-center text-4xl font-bold py-5">📩 Join Us</div>
+    <section className="relative mt-5 md:mt-10 lg:mt-15">
+      {/* <div className="text-center text-4xl font-bold py-5">📩 Join Us</div> */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-5 sm:px-16 sm:pb-16 pt-0">
         {CommunityList.map((props, idx) => (
           <CommunityDemo key={`Community-${idx}`} {...props} />

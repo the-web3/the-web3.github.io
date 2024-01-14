@@ -88,11 +88,11 @@ export default function Home(): JSX.Element {
           </div>
 
           <div className="relative max-w-7xl m-auto">
-            <Sponsors />
+            <Community />
           </div>
 
           <div className="relative max-w-7xl m-auto">
-            <Community />
+            <Sponsors />
           </div>
 
           <svg className="-mb-[1px] bottom-0 w-full sm:-mt-20 fill-blue-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
