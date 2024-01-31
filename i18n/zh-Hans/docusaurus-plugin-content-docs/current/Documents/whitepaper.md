@@ -4,15 +4,15 @@ sidebar_position: 1
 
 # 白皮书
 
-钱包是通向区块链世界的大门。掌握这个大门，我们可以在未来做很多事情。可以说，没有钱包，区块链世界的大多数事物都无法接触。我们提出Savour项目的原因之一是我们对整个区块链世界的未来非常兴奋。第二个原因是我们想为这个行业的发展做出一些贡献。当然，最重要的原因是我们希望创造一个属于我们自己的Web3世界。在为整个行业发展砖瓦的同时，我们有机会实现财务自由。
+钱包是通向区块链世界的大门。掌握这个大门，我们可以在未来做很多事情。可以说，没有钱包，区块链世界的大多数事物都无法接触。我们提出Eniac x项目的原因之一是我们对整个区块链世界的未来非常兴奋。第二个原因是我们想为这个行业的发展做出一些贡献。当然，最重要的原因是我们希望创造一个属于我们自己的Web3世界。在为整个行业发展砖瓦的同时，我们有机会实现财务自由。
 
-## About Savour Wallet
+## About Eniac x Wallet
 
-### 1. The Origin of Savour Wallet
-Savour wallet originated from Coincore, a project I did that failed. I wanted to restart it and cooperate with passionate and idealistic friends to make this project happen, so I initiated the Savour wallet project, a wallet project in a unique decentralized Web3 world that will be open source in the future.
+### 1. The Origin of Eniac x Wallet
+Eniac x wallet originated from Coincore, a project I did that failed. I wanted to restart it and cooperate with passionate and idealistic friends to make this project happen, so I initiated the Eniac x wallet project, a wallet project in a unique decentralized Web3 world that will be open source in the future.
 
-### 2. Why is it Called Savour Wallet
-“Savour” means “interest, taste, savor” in Chinese. We came up with this name for three reasons. First, people participate in this project out of “interest” and work on it in their spare time. Second, we are doing something very “fun” that may bring changes to the Web3 world. Third, we hope that participants can all “savor” the taste of Web3 and learn things about the blockchain world from our project and achieve something in the blockchain world.
+### 2. Why is it Called Eniac x Wallet
+“Eniac x” means “interest, taste, savor” in Chinese. We came up with this name for three reasons. First, people participate in this project out of “interest” and work on it in their spare time. Second, we are doing something very “fun” that may bring changes to the Web3 world. Third, we hope that participants can all “savor” the taste of Web3 and learn things about the blockchain world from our project and achieve something in the blockchain world.
 
 ### 3. What We Want to Do
 We want to build a decentralized wallet system that operates in the form of a DAO, issue a token and NFT as proof for everyone to participate. The wallet will include modules like HD wallet, social recovery wallet, decentralized custodial wallet, NFT trading aggregator, Dapp browser, market data aggregator, etc. After the project takes shape, we will seek investment to make it the largest wallet in the Web3 world.
@@ -67,7 +67,7 @@ On-chain staking, liquidity mining, etc. Omitted for now, depending on available
 
 The above is just a flowchart. The contract should consider privacy, blinds, etc. Details TBD during development.
 
-## Savour Wallet Function Description
+## Eniac x Wallet Function Description
 
 ### 1. Key Management
 
@@ -129,7 +129,7 @@ Support decentralized staking, algo trading. De-prioritized for now.
 
 2.8. Multisig Wallet
 
-Enable multisig via MPC, e.g. for SavourDAO tokens and NFTs.
+Enable multisig via MPC, e.g. for Eniac xDAO tokens and NFTs.
 
 Example flow:
 
@@ -161,25 +161,25 @@ Nuxt.js (Vue framework, good for SEO)
 
 Go, Rust, Python, Java - allow different languages for more inclusion. Modular microservices, gRPC internally, unified data layer for frontends.
 
-## Savour DAO
+## Eniac x DAO
 
-Why we need a SavourDAO:
+Why we need a Eniac xDAO:
 
 Open source for community participation, not just us. Rally help from the community. Everyone owns the project.
 
-If successful, SavourDAO can operate commercially independently.
+If successful, Eniac xDAO can operate commercially independently.
 
-## Savour Wallet Team
+## Eniac x Wallet Team
 
-A decentralized team. Anyone can participate. No fixed members. We are the initiators and core team. Beyond assigned tasks, community members can pick a module to work on and get Savour token/NFT rewards upon completion.
+A decentralized team. Anyone can participate. No fixed members. We are the initiators and core team. Beyond assigned tasks, community members can pick a module to work on and get Eniac x token/NFT rewards upon completion.
 
-## Savour Wallet Vision
+## Eniac x Wallet Vision
 
 Build a decentralized Web3 world and promote crypto native culture.
 
 ## Github Org
 
-https://github.com/SavourDao (closed source for now until fully complete)
+https://github.com/Eniac xDao (closed source for now until fully complete)
 
 This whitepaper will be updated continuously.
 

@@ -5,7 +5,7 @@ sidebar_position: 2
 # NFT
 
 ## Overview
-NFT is a module of the SavourDao project. It is a product module related to NFT memorabilia, NFT avatars, NFT leasing, NFT rewards, NFT social, NFT recommendations, NFT transactions and other functions. The entire product is supported by the SavourDao NFT aggregator, whose core is one-click NFT minting, multi-chain and multi-platform data synchronization. Except for the NFT recommendation function, other functions are developed entirely by smart contracts and are completely decentralized. Of course, our goal is to create a truly decentralized, multi-functional, multi-chain, multi-platform supported NFT product.
+NFT is a module of the Eniac xDao project. It is a product module related to NFT memorabilia, NFT avatars, NFT leasing, NFT rewards, NFT social, NFT recommendations, NFT transactions and other functions. The entire product is supported by the Eniac xDao NFT aggregator, whose core is one-click NFT minting, multi-chain and multi-platform data synchronization. Except for the NFT recommendation function, other functions are developed entirely by smart contracts and are completely decentralized. Of course, our goal is to create a truly decentralized, multi-functional, multi-chain, multi-platform supported NFT product.
 
 ## Project Architecture
 
@@ -14,10 +14,10 @@ NFT is a module of the SavourDao project. It is a product module related to NFT 
 ## Function Description
 
 ### NFT Memorabilia
-NFT memorabilia is mainly to provide services for various event sponsors and project parties. They can mint relevant commemorative NFTs based on our Savour platform to give to their event participants, customers and other groups. The main feature of NFT memorabilia is that users other than the whitelist cannot transfer the NFT. After event participants or customer groups get this NFT, they are not allowed to transfer it to others in principle.
+NFT memorabilia is mainly to provide services for various event sponsors and project parties. They can mint relevant commemorative NFTs based on our Eniac x platform to give to their event participants, customers and other groups. The main feature of NFT memorabilia is that users other than the whitelist cannot transfer the NFT. After event participants or customer groups get this NFT, they are not allowed to transfer it to others in principle.
 
 ### NFT Avatar
-NFT avatar refers to users being able to set any NFT they own as their avatar. If a user owns a high-value NFT, he can lend it to others for use as an avatar. Of course, users can also mint relevant NFTs through the Savour platform as their avatars. Savour’s NFT minting material library can contain materials such as emotions and skin for users to choose from, providing basic and premium versions. The basic version provides free minting to serve those customers who do not want to spend money.
+NFT avatar refers to users being able to set any NFT they own as their avatar. If a user owns a high-value NFT, he can lend it to others for use as an avatar. Of course, users can also mint relevant NFTs through the Eniac x platform as their avatars. Eniac x’s NFT minting material library can contain materials such as emotions and skin for users to choose from, providing basic and premium versions. The basic version provides free minting to serve those customers who do not want to spend money.
 
 ### NFT Leasing
 Simply put, NFT leasing means that I own a very valuable NFT whose copyright belongs to me. Anyone else who needs to use this NFT must lease it from me. For example, I own a very valuable monkey. A clothing manufacturer wants to print this monkey on their clothes. So they can come and lease the usage rights of this monkey from me. During the lease period, they can continue to use this monkey within the scope allowed by the leased industry.
@@ -29,7 +29,7 @@ The contribution (spread reading volume, revenue generated) of content propagato
 
 Outstanding comments are decided by users. Comments can also receive rewards.
 
-Savour will cooperate with some blockchain community media. Of course there will also be some circle modules within Savour. Users can directly reward authors with NFTs when they see good articles written by others. In the early stage, our product will connect and cooperate with the Wenwo Community and Lianyan Community to make blockchain rewards.
+Eniac x will cooperate with some blockchain community media. Of course there will also be some circle modules within Eniac x. Users can directly reward authors with NFTs when they see good articles written by others. In the early stage, our product will connect and cooperate with the Wenwo Community and Lianyan Community to make blockchain rewards.
 
 ### NFT Social (This function needs to be outlined after the private chat is completed)
 It will be outlined in the future private chat product based on NFT design.

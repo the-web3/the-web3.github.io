@@ -2,10 +2,10 @@
 sidebar_position: 6
 ---
 
-# DOT SavourHd Interface Documentation
+# DOT Eniac xHd Interface Documentation
 
 - Public Node: https://rpc.polkadot.io
-- go-sdk: https://github.com/savour-labs/go-substrate-rpc-client
+- go-sdk: https://github.com/eniac-x-labs/go-substrate-rpc-client
 
 ## 1. Get Account Balance by Address
 

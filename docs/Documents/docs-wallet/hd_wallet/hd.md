@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# SavourDao HD Wallet Module Design Document
+# Eniac xDao HD Wallet Module Design Document
 
 ## HD Wallet Module will involve the following functions:
 

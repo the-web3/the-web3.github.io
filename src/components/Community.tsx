@@ -37,8 +37,8 @@ const colors = {
 };
 
 const urls = {
-  githubUrl: 'https://github.com/savour-labs',
-  twitterUrl: 'https://twitter.com/0xsavour',
+  githubUrl: 'https://github.com/eniac-x-labs',
+  twitterUrl: 'https://twitter.com/0xEniac x',
   discordUrl: 'https://discord.gg/9N62gJgMVW',
 };
 

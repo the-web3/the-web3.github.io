@@ -1,10 +1,10 @@
 {
   "title": {
-    "message": "Savour Labs",
+    "message": "Eniac x Labs",
     "description": "The title in the navbar"
   },
   "logo.alt": {
-    "message": "Savour Labs Logo",
+    "message": "Eniac x Labs Logo",
     "description": "The alt text of navbar logo"
   },
   "item.label.Develop 🛠️": {

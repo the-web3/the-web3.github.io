@@ -4,5 +4,5 @@ sidebar_position: 0
 
 # Introduction
 
-💡 Hello! This is Savour Labs Documents!
+💡 Hello! This is Eniac x Labs Documents!
 

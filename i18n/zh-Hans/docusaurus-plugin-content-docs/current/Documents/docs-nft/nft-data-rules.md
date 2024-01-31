@@ -78,7 +78,7 @@ NFT projects that meet both of the above conditions are required to monitor NFT 
 ```
             Call rule RPC  
           --------------->
-hailstone                   savour-nft[config rules]
+hailstone                   Eniac x-nft[config rules]
           <---------------
                Return
 ```
@@ -91,7 +91,7 @@ See RPC API for details.
 
 ```
                     Ingest cleansed data                Get cleansing rules  
-store into a database ----------> savour-nft[data center] <-------------- savour-nft[config rules]
+store into a database ----------> Eniac x-nft[data center] <-------------- Eniac x-nft[config rules]
 ```
 
 3. Data Ingestion Services
@@ -113,7 +113,7 @@ Blockchain ----------------------------------------------------> Monitoring serv
 ```
             Call rule RPC
           --------------->
-hailstone                   savour-nft【configured rules】
+hailstone                   Eniac x-nft【configured rules】
           <---------------
              Return clean data
 ```

@@ -7,20 +7,20 @@
     "message": "Documents",
     "description": "The label for category Documents in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Savour Wallet": {
-    "message": "Savour Wallet",
-    "description": "The label for category Savour Wallet in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Eniac x Wallet": {
+    "message": "Eniac x Wallet",
+    "description": "The label for category Eniac x Wallet in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Savour Wallet.link.generated-index.description": {
+  "sidebar.tutorialSidebar.category.Eniac x Wallet.link.generated-index.description": {
     "message": "The wallet serves as the gateway to the world of blockchain.",
-    "description": "The generated-index page description for category Savour Wallet in sidebar tutorialSidebar"
+    "description": "The generated-index page description for category Eniac x Wallet in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.HD Wallet": {
     "message": "HD Wallet",
     "description": "The label for category HD Wallet in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.HD Wallet.link.generated-index.description": {
-    "message": "SavourDao HD Wallet Module",
+    "message": "Eniac xDao HD Wallet Module",
     "description": "The generated-index page description for category HD Wallet in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Social Wallet": {
@@ -36,7 +36,7 @@
     "description": "The label for category NFT Product in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.NFT Product.link.generated-index.description": {
-    "message": "NFT is a module of the SavourDao project. It is a product module related to NFT memorabilia, NFT avatars, NFT leasing, NFT rewards, NFT social, NFT recommendations, NFT transactions and other functions. The entire product is supported by the SavourDao NFT aggregator, whose core is one-click NFT minting, multi-chain and multi-platform data synchronization. Except for the NFT recommendation function, other functions are developed entirely by smart contracts and are completely decentralized. Of course, our goal is to create a truly decentralized, multi-functional, multi-chain, multi-platform supported NFT product.",
+    "message": "NFT is a module of the Eniac xDao project. It is a product module related to NFT memorabilia, NFT avatars, NFT leasing, NFT rewards, NFT social, NFT recommendations, NFT transactions and other functions. The entire product is supported by the Eniac xDao NFT aggregator, whose core is one-click NFT minting, multi-chain and multi-platform data synchronization. Except for the NFT recommendation function, other functions are developed entirely by smart contracts and are completely decentralized. Of course, our goal is to create a truly decentralized, multi-functional, multi-chain, multi-platform supported NFT product.",
     "description": "The generated-index page description for category NFT Product in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Download": {
