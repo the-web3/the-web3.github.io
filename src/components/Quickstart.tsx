@@ -15,8 +15,8 @@ export default function Quickstart() {
           <div className="relative w-[320px] sm:absolute sm:left-16 sm:-top-5 sm:w-[62%] p-5 sm:p-2">
 
             <h2 className="font-bold text-3xl font-black text-white w-full mb-5 sm:mb-10">
-              Layer3 Base bridge
-              <span className="hidden sm:block w-full sm:w-auto text-sm font-normal text-blue-800 ml-3">Support any chain transfer to any chain</span>
+              Web3 tech solutions
+              <span className="hidden sm:block w-full sm:w-auto text-sm font-normal text-blue-800 ml-3">We provide Layer3 technology solution services.</span>
             </h2>
 
             <div>
@@ -24,7 +24,7 @@ export default function Quickstart() {
                 className="transition-all ease-in hover:bg-green-700 hover:text-white hover:text text-md text-white font-bold py-3 px-4 rounded bg-green-500 shadow-lg shadow-blue-500/50"
                 to="/docs/Documents/intro"
               >
-                Base bridge
+                For Details
                 <span className="ml-3">🎢</span>
               </Link>
             </div>
@@ -32,29 +32,29 @@ export default function Quickstart() {
             <p className="mb-10" />
 
             <h2 className="font-bold text-3xl font-black text-white w-full mb-5 sm:mb-10">
-              Layer3 Decentralized app
-              <span className="hidden sm:block w-full sm:w-auto text-sm font-normal text-blue-800 ml-3">Decentralized social and game app</span>
+              Dapp Incubation
+              <span className="hidden sm:block w-full sm:w-auto text-sm font-normal text-blue-800 ml-3">We are looking for dapps that can be incubated.</span>
             </h2>
             <div>
               <Link
                 className="transition-all ease-in hover:bg-green-700 hover:text-white hover:text text-md text-white font-bold py-3 px-4 rounded bg-green-500 shadow-lg shadow-blue-500/50"
                 to="/docs/Documents/intro"
               >
-                Layer3 Dapp
+                For Details
                 <span className="ml-3">📦</span>
               </Link>
             </div>
             <p className="mb-10" />
             <h2 className="font-bold text-3xl font-black text-white w-full mb-5 sm:mb-10">
-              Layer3 App Chain
-              <span className="hidden sm:block w-full sm:w-auto text-sm font-normal text-blue-800 ml-3">Privacy social and full-chain game protocol</span>
+              Web3 hackthon and tech share
+              <span className="hidden sm:block w-full sm:w-auto text-sm font-normal text-blue-800 ml-3">Host web3 community events and tech share</span>
             </h2>
             <div>
               <Link
                 className="transition-all ease-in hover:bg-green-700 hover:text-white hover:text text-md text-white font-bold py-3 px-4 rounded bg-green-500 shadow-lg shadow-blue-500/50"
                 to="/docs/Documents/intro"
               >
-                Layer3 App Chain
+                For Details
                 <span className="ml-3">⛓️</span>
               </Link>
             </div>
@@ -62,12 +62,12 @@ export default function Quickstart() {
 
           <img
             className="pointer-events-none hidden dark:block object-contain absolute -top-6 w-[400px] sm:relative dark:sm:block sm:w-3/4 sm:left-3 md:w-[70%] 2xl:w-[85%] lg:w-2/3 mr-0 translate-x-[27%] md:translate-x-[20%] lg:translate-x-[15%] 2xl:translate-x-[28%] -translate-y-[43%]"
-            src="./img/phone_dark.png"
+            src="./img/logo.png"
             alt="phone"
           />
           <img
             className="dark:hidden pointer-events-none object-contain absolute -top-6 w-[400px] sm:relative sm:block sm:w-3/4 md:w-[70%] 2xl:w-[85%] lg:w-2/3 mr-0 translate-x-[27%] md:translate-x-[20%] lg:translate-x-[15%] 2xl:translate-x-[28%] -translate-y-[43%]"
-            src="./img/phone_light.png"
+            src="./img/logo.png"
             alt="phone"
           />
         </div>

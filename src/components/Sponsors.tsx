@@ -2,8 +2,6 @@ import React from 'react';
 import Translate from '@docusaurus/Translate';
 
 import DappLinkLogo from '../../static/logos/dapplink.png';
-import bitcoinLogo from '../../static/logos/bitcoin.png';
-
 
 type SponsorItem = {
   url: string;
@@ -12,9 +10,6 @@ type SponsorItem = {
 const SponsorList: SponsorItem[] = [
   {
     url: DappLinkLogo,
-  },
-  {
-    url: bitcoinLogo,
   },
 ];
 
