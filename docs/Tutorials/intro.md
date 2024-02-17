@@ -4,4 +4,4 @@ sidebar_position: 1
 
 # Introduction
 
-💡 Hello! This is Eniac x Labs Tutorials!
+💡 Hello! This is Savour Community Tutorials!

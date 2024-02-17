@@ -10,3 +10,4 @@ yarn-error.log*
 .vercel
 *.tsbuildinfo
 /crowdin.yml
+.idea

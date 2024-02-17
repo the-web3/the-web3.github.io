@@ -45,7 +45,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         {/* eslint-disable-next-line react/no-unescaped-entities */}
-        Eniac x labs academy web3 university
+        Savour Community academy web3 university
       </>
     ),
   },

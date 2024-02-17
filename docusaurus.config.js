@@ -1,18 +1,18 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-const githubUrl = 'https://github.com/eniac-x-labs';
-const twitterUrl = 'https://twitter.com/0xEniac x';
+const githubUrl = 'https://github.com/savour-community';
+const twitterUrl = 'https://twitter.com/0xSavour';
 const discordUrl = 'https://discord.gg/9N62gJgMVW';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Eniac x Labs',
+  title: 'Savour Community',
   tagline: 'Focus on layer3 privacy decentralized social protocol, full chain game and web3 edu.',
-  url: 'https://eniac-x-labs.github.io/',
+  url: 'https://savour-community.github.io/',
   baseUrl: '/',
-  organizationName: 'Eniac x Labs',
-  projectName: 'Eniac x Labs Website',
+  organizationName: 'Savour Community',
+  projectName: 'Savour Community Website',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.png',
@@ -44,12 +44,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/eniac-x-labs/eniac-x-labs.github.io/tree/main',
+            'https://github.com/savour-community/savour-community.github.io/tree/main',
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/eniac-x-labs/eniac-x-labs.github.io/tree/main',
+            'https://github.com/savour-community/savour-community.github.io/tree/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -73,9 +73,9 @@ const config = {
         respectPrefersColorScheme: false,
       },
       navbar: {
-        title: 'Eniac x Labs',
+        title: 'Savour Community',
         logo: {
-          alt: 'Eniac x Labs Logo',
+          alt: 'Savour Community Logo',
           src: 'img/logo.png',
         },
         items: [
@@ -180,7 +180,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} ❤️ Eniac x Labs`,
+        copyright: `Copyright © ${new Date().getFullYear()} ❤️ Savour Community`,
       },
       prism: {
         theme: lightCodeTheme,
