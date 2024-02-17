@@ -9,43 +9,43 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Layer3 App Chain',
+    title: 'Web3 tech solutions',
     icon: '🔗',
     color: 'yellow',
     description: (
       <>
-        We are building layer3 privacy social and full-game protocol app chain.
+        We provide Layer3 technology solution services.
       </>
     ),
   },
   {
-    title: 'Full chain game',
-    icon: '🎮',
+    title: 'Dapp Incubation',
+    icon: '📱',
     color: 'green',
     description: (
       <>
-        We find and incubate full-chain games.
+        We are looking for dapps that can be incubated..
       </>
     ),
   },
   {
-    title: 'Bridge alchemy',
-    icon: '🌉',
+    title: 'Community Activity',
+    icon: '🎡',
     color: 'cyan',
     description: (
       <>
-        An infrastructure which support any chain transfer to any chain.
+        Host web3 community events
       </>
     ),
   },
   {
-    title: 'Focus on web3 edu',
+    title: 'Web3 tech share',
     icon: '🏫',
     color: 'orange',
     description: (
       <>
         {/* eslint-disable-next-line react/no-unescaped-entities */}
-        Savour Community academy web3 university
+        Share web3 hot technologies
       </>
     ),
   },

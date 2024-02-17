@@ -38,7 +38,7 @@ const colors = {
 
 const urls = {
   githubUrl: 'https://github.com/savour-community',
-  twitterUrl: 'https://twitter.com/0xSavour Community',
+  twitterUrl: 'https://twitter.com/0xSavour',
   discordUrl: 'https://discord.gg/9N62gJgMVW',
 };
 

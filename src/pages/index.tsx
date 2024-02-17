@@ -38,7 +38,7 @@ function HomepageHeader() {
           {siteConfig.tagline}
           <span className="ml-1 text-xl text-slate-400">
             <Translate>
-              The vision of the Savour Community community is to create a completely fair,
+              The vision of the Savour Community is to create a completely fair,
               open, and notarized community culture system; everything is built
               by the community, everything belongs to the community.
             </Translate>
@@ -65,7 +65,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`Welcome from ${siteConfig.title}`}
-      description="Savour Community"
+      description="Savour"
       wrapperClassName="relative overflow-hidden"
     >
       <div className="relative max-w-7xl m-auto w-full opacity-40">

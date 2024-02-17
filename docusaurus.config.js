@@ -8,7 +8,7 @@ const discordUrl = 'https://discord.gg/9N62gJgMVW';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Savour Community',
-  tagline: 'Focus on layer3 privacy decentralized social protocol, full chain game and web3 edu.',
+  tagline: 'Dev focused, Web3 tech solutions + dapp incubation',
   url: 'https://savour-community.github.io/',
   baseUrl: '/',
   organizationName: 'Savour Community',
