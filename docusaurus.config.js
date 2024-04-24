@@ -1,18 +1,18 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-const githubUrl = 'https://github.com/savour-community';
-const twitterUrl = 'https://twitter.com/0xSavour';
+const githubUrl = 'https://github.com/the-web3';
+const twitterUrl = 'https://twitter.com/0xtheweb3cn';
 const discordUrl = 'https://discord.gg/9N62gJgMVW';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Savour Community',
+  title: 'The Web3',
   tagline: 'Dev focused, Web3 tech solutions + dapp incubation',
-  url: 'https://savour-community.github.io/',
+  url: 'https://the-web3.github.io/',
   baseUrl: '/',
-  organizationName: 'Savour Community',
-  projectName: 'Savour Community Website',
+  organizationName: 'The Web3',
+  projectName: 'The Web3 Website',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.png',
@@ -44,12 +44,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/savour-community/savour-community.github.io/tree/main',
+            'https://github.com/the-web3/the-web3.github.io/tree/main',
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/savour-community/savour-community.github.io/tree/main',
+            'https://github.com/the-web3/the-web3.github.io/tree/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -73,9 +73,9 @@ const config = {
         respectPrefersColorScheme: false,
       },
       navbar: {
-        title: 'Savour Community',
+        title: 'The Web3',
         logo: {
-          alt: 'Savour Community Logo',
+          alt: 'The Web3 Logo',
           src: 'img/logo.png',
         },
         items: [
@@ -180,7 +180,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} ❤️ Savour Community`,
+        copyright: `Copyright © ${new Date().getFullYear()} ❤️ The Web3 Community`,
       },
       prism: {
         theme: lightCodeTheme,
