@@ -15,8 +15,7 @@ function HomepageHeader() {
   return (
     <header>
       <div className="bottom-0 w-screen left-1/2 top-24 ml-3 mt-10 pt-0 md:pt-0 sm:-ml-5 md:ml-auto flex justify-end right-12 md:top-auto md:left-auto md:-right-12 md:justify-center absolute md:w-2/3 sm:top-20 m-auto lg:w-1/2">
-
-        <img
+        {/* <img
           className="dark:block pointer-events-none hidden object-contain z-10 w-full md:w-1/2"
           src="./img/logo.png"
           alt="logo"
@@ -26,19 +25,19 @@ function HomepageHeader() {
           className="dark:hidden pointer-events-none sm:block object-contain z-10 w-full md:w-1/2"
           src="./img/logo.png"
           alt="logo"
-        />
+        /> */}
       </div>
 
       <div className="px-5 sm:px-12 md:px-16 relative mx-auto pt-10 md:pt-24">
         <h1 className="text-[32px] sm:text-[40px] mt-10 lg:mt-16 md:mt-0 md:text-[45px] lg:text-[63px] leading-10 md:leading-8 font-black text-indigo-700">
           Welcome to
-          <span className="font-extralight mt-4 md:mt-8 lg:mt-0 text-[66px] sm:text-[83px] md:text-[92px] lg:text-9xl block text-blue-500 dark:text-blue-600">Savour Community</span>
+          <span className="font-extralight mt-4 md:mt-8 lg:mt-0 text-[66px] sm:text-[83px] md:text-[92px] lg:text-9xl block text-blue-500 dark:text-blue-600">The Web3</span>
         </h1>
         <p className="mt-6 pr-20 sm:pr-0 sm:mt-12 lg:mt-5 w-full sm:w-2/3 md:w-1/2 text-xl font-bold ml-1 text-slate-700 dark:text-white">
           {siteConfig.tagline}
           <span className="ml-1 text-xl text-slate-400">
             <Translate>
-              The vision of the Savour Community is to create a completely fair,
+              The vision of the The Web3 is to create a completely fair,
               open, and notarized community culture system; everything is built
               by the community, everything belongs to the community.
             </Translate>
@@ -65,7 +64,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`Welcome from ${siteConfig.title}`}
-      description="Savour"
+      description="The Web3"
       wrapperClassName="relative overflow-hidden"
     >
       <div className="relative max-w-7xl m-auto w-full opacity-40">
